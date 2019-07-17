@@ -87,7 +87,8 @@
       "@datacamp/waffles-catalog-doc-site/**",
       "**/jest",
       "**/jest/**",
-      "**/@babel/runtime/**"
+      "**/@babel/runtime/**",
+      "**/gatsby-starter-default/**"
     ]
   }
 }

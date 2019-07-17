@@ -59,7 +59,9 @@
     "react/jsx-sort-props": [
       "error",
       { "shorthandLast": true, "reservedFirst": true }
-    ]
+    ],
+    "react/button-has-type": "off",
+    "react/destructuring-assignment": "off"
   },
   "globals": {},
   "env": {
