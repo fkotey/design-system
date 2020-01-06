@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="45" viewBox="0 0 54 45">
+  <defs>
+    <linearGradient id="linearGradient-1" x1="65.801%" x2="-2.294%" y1="24.089%" y2="115.035%">
+      <stop offset="0%" stop-color="#405F8F"/>
+      <stop offset="100%" stop-color="#1C3050"/>
+    </linearGradient>
+    <linearGradient id="linearGradient-2" x1="69.998%" x2="-16.184%" y1="24.089%" y2="115.035%">
+      <stop offset="0%" stop-color="#405F8F"/>
+      <stop offset="100%" stop-color="#1C3050"/>
+    </linearGradient>
+    <rect id="path-3" width="39.6" height="45" x="0" y="0" rx="12"/>
+    <linearGradient id="linearGradient-5" x1="6.464%" x2="95.497%" y1="102.377%" y2="10.4%">
+      <stop offset="0%" stop-color="#37BBAB"/>
+      <stop offset="100%" stop-color="#75C97E"/>
+    </linearGradient>
+    <rect id="path-6" width="39.6" height="45" x="0" y="0" rx="12"/>
+    <linearGradient id="linearGradient-8" x1="69.998%" x2="-16.184%" y1="44.793%" y2="63.069%">
+      <stop offset="0%" stop-color="#405F8F"/>
+      <stop offset="100%" stop-color="#1C3050"/>
+    </linearGradient>
+    <linearGradient id="linearGradient-9" x1="69.998%" x2="-16.184%" y1="24.089%" y2="115.035%">
+      <stop offset="0%" stop-color="#405F8F"/>
+      <stop offset="100%" stop-color="#1C3050"/>
+    </linearGradient>
+    <linearGradient id="linearGradient-10" x1="69.998%" x2="-16.184%" y1="24.089%" y2="115.035%">
+      <stop offset="0%" stop-color="#405F8F"/>
+      <stop offset="100%" stop-color="#1C3050"/>
+    </linearGradient>
+  </defs>
+  <g id="Page-1" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <g id="illustration-design">
+      <g id="a-link" fill="url(#linearGradient-2)" fill-rule="nonzero">
+        <rect id="a" width="39.6" height="45" x="0" y="0" rx="12"/>
+      </g>
+      <g id="Clipped">
+        <mask id="mask-4" fill="#fff">
+          <use xlink:href="#path-3"/>
+        </mask>
+        <path id="Path" fill="url(#linearGradient-5)" fill-rule="nonzero" d="M-8.875,34.949 C4.487,40.169 14.125,38.637 20.041,30.351 C28.914,17.923 35.296,12.038 49.331,15.775 L39.595,47.718 L-4.545,47.718 L-8.875,34.948 L-8.875,34.949 Z" mask="url(#mask-4)"/>
+      </g>
+      <g id="Clipped">
+        <mask id="mask-7" fill="#fff">
+          <use xlink:href="#path-6"/>
+        </mask>
+        <circle id="Oval" cx="13.5" cy="13.3" r="5.4" fill="#FFF" fill-rule="nonzero" mask="url(#mask-7)"/>
+      </g>
+      <g id="Group" fill-rule="nonzero" transform="translate(25.2 27)">
+        <rect id="Rectangle" width="21.497" height="4.5" x="0" y="0" fill="url(#linearGradient-9)" rx="2.25"/>
+        <rect id="Rectangle" width="28.358" height="4.5" x="0" y="8.1" fill="url(#linearGradient-10)" rx="2.25"/>
+      </g>
+    </g>
+  </g>
+</svg>

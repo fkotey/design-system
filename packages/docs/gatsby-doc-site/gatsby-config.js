@@ -11,13 +11,32 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      options: {
+        rule: {
+          include: /assets/, // See below to configure properly
+        },
+      },
+      resolve: 'gatsby-plugin-react-svg',
+    },
+    `gatsby-plugin-emotion`,
+    {
+      options: {
+        background_color: `#3ac`,
+        display: `standalone`,
+        icon: '../../other/assets/logos/waffles/icon.svg', // direct import as cannot use module system here
+        name: `Waffles`,
+        short_name: `Waffles`,
+        start_url: `/`,
+        theme_color: `#3ac`,
+      },
+      resolve: `gatsby-plugin-manifest`,
+    },
+    `gatsby-plugin-offline`,
   ],
   siteMetadata: {
-    author: `@gatsbyjs`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    title: `Gatsby Default Starter`,
+    author: `@datacamp`,
+    description: `The DataCamp design system`,
+    title: `Waffles`,
   },
 };
